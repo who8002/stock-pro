@@ -9,9 +9,8 @@ DATA_FILE = "stock.json"
 IMAGE_DIR = "images"
 ADMIN_FILE = "admins.json"
 CATEGORIES = {
-    "Men": ["T-shirt", "Shirt"],
-    "Women": ["Dress", "Blouse"],
-    "Accessories": ["Cap", "Bag"]
+    "T-shirt": ["Round Neck", "V-Neck"],
+    "Shirt": ["Formal", "Casual"]
 }
 
 if not os.path.exists(DATA_FILE):
